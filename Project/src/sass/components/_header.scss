@@ -3,6 +3,7 @@
     background-color: var(--color-default-two);
     position: fixed;
     top: 0;
+    border-right: 1px solid var(--color-default-three);
 
     &__title {
         color: var(--color-default-eight);
@@ -27,7 +28,7 @@
 
         a,
         svg {
-            transition: all 0.6s;
+            transition: all 0.3s;
         }
 
         &:last-child {
