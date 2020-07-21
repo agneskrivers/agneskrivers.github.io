@@ -1,0 +1,77 @@
+.intro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-default-two);
+    opacity: 0.95;
+
+    &__avatar {
+        width: 13rem;
+        height: 13rem;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover;
+        background-image: url('/image/avatar.jpg');
+    }
+
+    &__social {
+        display: flex;
+        margin: 1rem 0;
+    }
+
+    &__name {
+        color: var(--color-default-eight);
+        @include size($font-size-largest);
+    }
+
+    &__nick {
+        @include size($font-size-default);
+        color: var(--color-default-six);
+    }
+
+    &__iam {
+        @include size($font-size-large);
+        font-weight: bold;
+        color: var(--color-default-eight);
+        margin: 1.5rem 0;
+        transition: all 0.4s;
+    }
+
+    &__item {
+        margin: 0 1rem;
+        text-decoration: none;
+        @include size($font-size-large);
+
+        &:hover {
+            svg {
+                fill: var(--color-default-one);
+            }
+        }
+    }
+
+    &__hire-me {
+        color: var(--color-default-eight);
+        font-weight: bold;
+        padding: 1rem 1.5rem;
+        background-color: #ff3539f2;
+        border-radius: 30px;
+        margin: 2rem 0;
+        cursor: pointer;
+        @include size($font-size-large);
+
+        &:hover {
+            animation-name: hireMe;
+            animation-duration: 0.7s;
+        }
+    }
+
+    &__svg {
+        width: 20px;
+        height: 20px;
+        fill: var(--color-default-seven);
+        transition: fill 0.4s;
+    }
+}
