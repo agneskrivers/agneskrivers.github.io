@@ -12,9 +12,12 @@
 // Elements
 
 // Object
+@import './objects/keyframe';
 
 // Components
 @import './components/flex'; // Compoennt Flex
 @import './components/header'; // Compoennt Header
+@import './components/home'; // Component Home
+@import './components/intro'; // Component Intro
 
 // Utilities
