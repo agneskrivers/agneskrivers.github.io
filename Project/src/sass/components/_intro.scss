@@ -32,12 +32,32 @@
         color: var(--color-default-six);
     }
 
-    &__iam {
+    &__animation {
         @include size($font-size-large);
         font-weight: bold;
         color: var(--color-default-eight);
         margin: 1.5rem 0;
-        transition: all 0.4s;
+        position: relative;
+        margin-right: 15rem;
+        z-index: 1;
+
+        span {
+            position: absolute;
+            margin-left: 0.5rem;
+            width: 30rem;
+            animation: changeText 10s linear infinite;
+            opacity: 0;
+            color: var(--color-default-one);
+            z-index: 111;
+
+            &:nth-child(1) {
+                animation-delay: 0s;
+            }
+
+            &:nth-child(2) {
+                animation-delay: 5s;
+            }
+        }
     }
 
     &__item {
