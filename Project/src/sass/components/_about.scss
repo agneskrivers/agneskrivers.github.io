@@ -1,0 +1,58 @@
+.about {
+    @include box(100%);
+    @include flex(column, center);
+    padding: 0 3rem;
+    background-color: var(--color-default-eight);
+
+    &__main {
+        @include size($font-size-largest, 800);
+        color: var(--color-default-one);
+        margin: 3rem 0;
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__avatar {
+        @include box(10rem);
+        @include background('/image/avatar.jpg');
+        border-radius: 50%;
+        margin-right: 10rem;
+    }
+
+    &__me {
+        @include size($font-size-large);
+        width: 40%;
+        color: var(--color-default-three);
+    }
+
+    &__skill {
+        width: 40%;
+
+        &-item {
+            @include flex(row, space-between, center);
+            margin: 1rem 0;
+        }
+
+        &-name {
+            @include size($font-size-default, bold);
+            color: var(--color-default-four);
+        }
+
+        &-icon {
+            @include box(3rem);
+            margin-right: 10rem;
+        }
+    }
+
+    &__title {
+        @include size($font-size-large, bold);
+        color: var(--color-default-two);
+        margin-bottom: 1rem;
+    }
+
+    &__programming {
+        padding-left: 3rem;
+    }
+}
