@@ -26,7 +26,7 @@
         align-items: center;
         cursor: pointer;
 
-        a,
+        div,
         svg {
             transition: all 0.3s;
         }
@@ -36,7 +36,7 @@
         }
 
         &:hover {
-            a {
+            div {
                 color: var(--color-default-one);
             }
 
@@ -46,7 +46,7 @@
         }
 
         &--active {
-            a {
+            div {
                 color: var(--color-default-one);
             }
 
@@ -58,6 +58,8 @@
 
     &__icon {
         fill: var(--color-default-seven);
+        width: 2rem;
+        height: 2rem;
     }
 
     &__link {
