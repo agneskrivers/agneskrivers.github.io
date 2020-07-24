@@ -11,3 +11,7 @@ body {
     font-size: 62.5%;
     font-family: var(--font-default);
 }
+
+html {
+    scroll-behavior: smooth;
+}
