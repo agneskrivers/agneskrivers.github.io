@@ -1,16 +1,19 @@
 header.header
     h1.header__title Curriculum Vitae
     .header__nav
-        .header__item
+        .header__item.header__item--active#menuHome
             include ../svg/home.svg.pug
-            a.header__link(href="#") Home
-        .header__item
+            .header__link Home
+        .header__item#menuAbout
             include ../svg/about.svg.pug
-            a.header__link(href="#") About
-        .header__item
+            .header__link About
+        .header__item#menuExperience
             include ../svg/experience.svg.pug
-            a.header__link(href="#") Experience
-        .header__item
+            .header__link Experience
+        .header__item#menuProject
             include ../svg/work.svg.pug
-            a.header__link(href="#") Project
+            .header__link Project
+        .header__item#menuContact
+            include ../svg/contact.svg.pug
+            .header__link Contact
     .header__copy © 2020 Agnes K. Rivers Template
