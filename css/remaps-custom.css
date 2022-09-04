@@ -1,0 +1,61 @@
+.sub-header{
+	display: none!important;
+}
+.extra{
+	display: none!important;
+}
+.base-layer{
+	bottom: 26px!important;
+}
+.vertical-widget-holder{
+	bottom: 26px!important;
+}
+
+
+.panel-container{
+	display: none;
+}
+.tools-container .tools button:nth-child(2){
+	display: none;
+}
+.tools-container .tools button:nth-child(3){
+	display: none;
+}
+.mat-snack-bar-handset{
+	
+}
+
+a.italic{
+	display: none;
+}
+.ng-trigger-bodyExpansion .mat-dialog-actions button.mat-primary{
+	display: none;
+}
+.addby-container .relative {
+	top: 20px!important;
+}
+.addby-container form>.form-row:first-child, .addby-container form .fs-1 {
+	display: none!important;
+}
+
+.n-post{
+	display: none;
+}
+
+.search-input .s-icons{
+	display: none!important;
+}
+
+.layers-options .mat-list .mat-list-item:last-child{
+	display: none!important;
+}
+
+.tools-container .slider-container.mobi{
+	top: 0px!important;
+}
+.leaflet-contextmenu{
+	display: none!important;
+}
+.cdk-overlay-container .con.collapse{
+	display: none!important;
+}
